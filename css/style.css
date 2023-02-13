@@ -56,6 +56,7 @@ img {
 
 /* MAIN */
 
+/* FIRST SECTION */
 .plane {
     width: 60%;
     margin: 50px auto;
@@ -85,9 +86,59 @@ img {
 }
 
 .enterprise {
-    margin: 0 auto;
     width: 100%;
     /* DEBUG */
     height: 180px;
     border: 2px solid red;
+}
+
+/* SECOND SECTION */
+
+.partner {
+    margin: 50px auto;
+    width: 60%;
+    /* DEBUG */
+    border: 2px solid red;
+    height: 300px;
+}
+
+.large-col {
+    width: 60%;
+    /* DEBUG */
+    border: 2px solid red;
+}
+
+.small-col {
+    width: 40%;
+    /* DEBUG */
+    border: 2px solid red;
+}
+
+/* THIRD SECTION */
+
+.operation {
+    width: 60%;
+    margin: 50px auto;
+    /* DEBUG */
+    height: 850px;
+    background-color: grey;
+}
+.title-operation {
+    width: 100%;
+    margin-bottom: 40px;
+    /* DEBUG */
+    height: 100px;
+    border: 2px solid blue;
+}
+.col-operation {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.col {
+    width: calc(100% / 3 - 10px);
+    /* DEBUG */
+    border: 2px solid red;
+    height: 350px;
 }
