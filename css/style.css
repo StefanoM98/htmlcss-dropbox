@@ -177,3 +177,27 @@ img {
     height: auto;
     border: 2px solid black;
 }
+
+/* FIFTH SECTION */
+
+.question {
+    width: 60%;
+    margin: 50px auto;
+    /* DEBUG */
+    height: 400px;
+    background-color: grey;
+    border: 2px solid red;
+}
+.question h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.questions {
+    width: 100%;
+    /* DEBUG */ 
+    height: calc(100% / 3 - 20px);
+    background-color: violet;
+    border: 2px solid red;
+}
+
