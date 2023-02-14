@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -17,9 +17,16 @@ ul {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
+
+.anchor {
+    text-decoration: underline;
+    color: #0707ef;
+}
+
+
 
 /* COMMONS */
 .flex {
@@ -33,7 +40,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 70px;
     justify-content: space-between;
     background-color: white;
     padding: 0 20px;
@@ -75,8 +82,7 @@ a {
 .jumbotron {
     background-color: #b4d0e7;
     padding-top: 80px;
-    /* DEBUG */
-    /* height: 700px; */
+    height: 700px;
 }
 
 .jumbo-title {
@@ -84,28 +90,36 @@ a {
     margin: 40px auto 0;
 }
 .jumbo-title h1 {
+    font-weight: 800;
     font-size: 4rem;
 }
 
 .jumbo-nav {
-    width: 60%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 30px auto;
 
 }
 
 .small-jumbo {
-    width: 40%;
+    width: 30%;
+    margin: 20px auto;
 }
+.small-jumbo p {
+    font-size: 0.9rem;
+}
+
 .try {
+    margin: 30px auto;
+}
+
+.try a{
     background-color: #0161ff;
-    width: 60%;
-    margin: 20px 0;
     padding: 7px;
     color: white;
 }
 
 .cancel {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .small-jumbo i {
@@ -113,48 +127,101 @@ a {
 }
 
 .large-jumbo {
-    width: 60%;
+    width: 70%;
 }
-.large-jumbo img {
-    width: 100%;
-}
-
 /* MAIN */
 
 /* FIRST SECTION */
 .plane {
     width: 60%;
-    margin: 50px auto;
-    /* DEBUG */
-    background-color: grey;
-    height: 900px;
+    margin: 9rem auto;
+
 }
 
 .plane-choise {
     margin: 0 auto;
     width: 100%;
-    /* DEBUG */
-    height: 120px;
-    border: 2px solid red;
-}
-.cost {
-    gap: 20px;
-    /* DEBUG */
-    height: 600px;
-    border: 2px solid blue;
-}
-.plane-cost {
-    width: calc(100% / 3);
-    /* DEBUG */
-    height: 600px;
-    border: 2px solid red;
 }
 
+.main-title {
+    font-size: 2.3rem;
+    padding-bottom: 30px;
+}
+
+.invoice li:last-child{
+    margin-left: 20px;
+}
+/* ABBONAMENTO */
+.cost {
+    gap: 10px;
+}
+.plane-cost {
+    margin: 20px 10px;
+    padding: 10px 0;
+    width: calc(100% / 3);
+    border: 1px solid grey;
+}
+
+.single {
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    padding: 30px 20px;
+}
+
+.card {
+    margin: 20px 0;
+}
+.month {
+    color: grey;
+}
+.cards .try {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+li i {
+    padding-top: 4px;
+    margin-right: 7px;
+}
+
+.line {
+    width: 80px;
+    margin: 20px 0;
+    border-bottom: 1px solid grey;
+}
+.sub-title {
+    font-size: 1rem;
+}
+
+.cards li {
+    margin: 10px 0;
+}
+
+.check i {
+    color: #0161ff;
+}
 .enterprise {
     width: 100%;
-    /* DEBUG */
-    height: 180px;
-    border: 2px solid red;
+    margin: 20px auto;
+    padding: 30px 0;
+    border: 1px solid grey;
+}
+.large-jumbo .price {
+    margin-bottom: 20px;
+}
+.enterprise .jumbo-nav {
+    width: 95%;
+    position: relative;
+}
+
+.enterprise .small-jumbo .try a{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 16px;
 }
 
 /* SECOND SECTION */
@@ -241,6 +308,14 @@ a {
     /* DEBUG */
     height: auto;
     border: 2px solid black;
+}
+
+.cta {
+    width: 60%;
+    margin: 30px auto;
+    /* DEBUG */
+    height: 200px;
+    background-color: aqua;
 }
 
 /* FIFTH SECTION */
