@@ -229,22 +229,29 @@ li i {
 .partner {
     margin: 50px auto;
     width: 60%;
-    /* DEBUG */
-    border: 2px solid red;
-    height: 300px;
-    background-color: grey;
 }
 
 .large-col {
     width: 60%;
-    /* DEBUG */
-    border: 2px solid red;
 }
 
 .small-col {
     width: 40%;
-    /* DEBUG */
-    border: 2px solid red;
+    padding: 30px;
+}
+
+.small-col h3 {
+    margin: 30px auto;
+}
+
+.small-col p {
+    margin: 30px auto;
+}
+
+.small-col .try a{
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
 }
 
 /* THIRD SECTION */
