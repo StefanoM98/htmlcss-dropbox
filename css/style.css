@@ -71,9 +71,6 @@ a {
     border-bottom: 2px solid black;
 }
 
-.left-nav a:hover {
-    border-bottom: 2px solid black;
-}
 
 /* LEFT NAVIGATION */
 .left-nav {
@@ -85,12 +82,22 @@ a {
     font-size: .9rem;
     padding-right: 20px;
 }
+
 .left-nav li:last-child {
     background-color: #0161ff;
     padding: 9px;
-    line-height: 10px ;
     color: white;
 }
+
+.left-nav a:nth-last-child(4):hover {
+    border-bottom: 2px solid black;
+}
+
+.left-nav li:last-child:hover {
+    background-color: #5291f6;
+    text-decoration: none;
+}
+
 /* JUMBOTRON SECTION */
 .jumbotron {
     background-color: #b4d0e7;
@@ -110,13 +117,13 @@ a {
 .jumbo-nav {
     width: 70%;
     margin: 30px auto;
-
 }
 
 .small-jumbo {
     width: 30%;
     margin: 20px auto;
 }
+
 .small-jumbo p {
     font-size: 0.9rem;
 }
@@ -129,6 +136,11 @@ a {
     background-color: #0161ff;
     padding: 7px;
     color: white;
+}
+
+.try a:hover {
+    background-color: #5291f6;
+    text-decoration: none;
 }
 
 .cancel {
@@ -148,7 +160,6 @@ a {
 .plane {
     width: 60%;
     margin: 9rem auto;
-
 }
 
 .plane-choise {
@@ -164,10 +175,13 @@ a {
 .invoice li:last-child{
     margin-left: 20px;
 }
+
 /* ABBONAMENTO */
+
 .cost {
     gap: 10px;
 }
+
 .plane-cost {
     margin: 20px 10px;
     padding: 10px 0;
@@ -285,7 +299,6 @@ li i {
     text-align: center;
 }
 
-
 .col-operation {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -342,6 +355,7 @@ li i {
 }
 
 /* BACKGROUD COLOR CLIENTS */
+
 .bc1 {
     background-color: #62092b;
 }
@@ -374,6 +388,8 @@ li i {
 .bc8 {
     background-color: #d50020;
 }
+
+/* BACKGROUD COLOR CLIENTS */
 
 .filter {
     filter: invert(100);
@@ -409,6 +425,11 @@ li i {
     background-color: #0161ff;
     padding: 7px;
     color: white;
+}
+
+.try-2 a:hover {
+    background-color: #5291f6;
+    text-decoration: none;
 }
 
 /* FIFTH SECTION */
@@ -456,7 +477,6 @@ li i {
     margin: 0 auto;
     background-color: black;
     color: white;
-
 }
 .menutitle {
     padding-bottom: 10px;
@@ -477,15 +497,17 @@ li i {
 .menu {
     width: calc(100% / 6);
 }
+
 .menu hr {
     width: 50%;
     margin: 50px 0;
 }
+
 .languages {
     padding: 50px 0;
     font-size: 0.9rem;
 }
 
-ul a:hover {
+a:hover {
     text-decoration: underline;
 }
