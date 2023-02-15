@@ -64,6 +64,7 @@ a {
 
 .right-nav .plan-list a {
     line-height: 70px;
+    text-decoration: none;
     transition: all;
 }
 
@@ -88,8 +89,11 @@ a {
     padding: 9px;
     color: white;
 }
+.left-nav .plan-list a {
+    text-decoration: none;
+}
 
-.left-nav a:nth-last-child(4):hover {
+.left-nav a:hover {
     border-bottom: 2px solid black;
 }
 
@@ -495,7 +499,7 @@ li i {
 }
 
 .menu {
-    width: calc(100% / 6);
+    width: calc(100% / 5);
 }
 
 .menu hr {
